@@ -1,10 +1,11 @@
 package org.example;
 
-public class WrongFixedPasswordGenerator implements PasswordGenerator{
+import org.example.PasswordGenerator.PasswordGenerator;
+
+public class WrongFixedPasswordGenerator implements PasswordGenerator {
 
     @Override
     public String generatePassword() {
         return "as"; //2글자
     }
 }
-됨

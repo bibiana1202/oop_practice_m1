@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.PasswordGenerator.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -21,7 +22,7 @@ class UserTest {
         //then
         assertThat(user.getPassword()).isNotNull();
 
-        // 비밀번호가 랜덤으로 만들어져서 test코드시 성공할수도 성공하지 않을 수도 있다.
+        // 비밀번호가 랜덤으로 만들어져서 test 코드시 성공할수도 성공하지 않을 수도 있다.
 
     }
 

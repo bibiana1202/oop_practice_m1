@@ -1,11 +1,11 @@
-package org.example;
+package org.example.PasswordGenerator;
 
 import org.passay.CharacterData;
 import org.passay.CharacterRule;
 import org.passay.EnglishCharacterData;
 import org.passay.PasswordGenerator;
 
-public class RandomPasswordGenerator implements org.example.PasswordGenerator{
+public class RandomPasswordGenerator implements org.example.PasswordGenerator.PasswordGenerator {
     // 해당 클래스의 역할은 랜덤한 패스워드를 생성해주는 역할
     public static final String ALLOWED_SPL_CHARACTERS = "!@#$%^&*()_+";
 
